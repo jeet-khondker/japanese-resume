@@ -1,0 +1,206 @@
+/* Import of 'Inter' Font Family */
+@import url('https://rsms.me/inter/inter.css');
+
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+@media print {
+    body, page {
+        margin: 0;
+        box-shadow: 0;
+    }
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #cccccc;
+    font-size: 10px;
+}
+
+page {
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+page[size="A4"][layout="portrait"] {
+    width: 595px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.rirekisho, 
+.appeal-points {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 0;
+}
+
+.page-header-spacing {
+    height: 0px;
+}
+
+.page-header-spacing-one, 
+.page-header-spacing-four, 
+.page-header-spacing-five {
+    width: 70px;
+}
+
+.page-header-spacing-two {
+    width: 45px;
+}
+
+.page-header-spacing-three {
+    width: 155px;
+}
+
+.page-header-spacing-six {
+    width: 130px;
+}
+
+.top, 
+.first-row, 
+.second-row, 
+.third-row, 
+.fourth-row, 
+.fifth-row, 
+.sixth-row, 
+.seventh-row, 
+.eighth-row, 
+.ninth-row, 
+.spacing {
+    height: 33.5px;
+}
+
+td {
+    padding: 0 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.rirekisho-title {
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: 3px;
+}
+
+.rirekisho-updated-date {
+    text-align: right;
+    font-size: 12px;
+}
+
+.text {
+    font-size: 12px;
+}
+
+/* border-top-solid */
+.bd-t-s {
+    border-top: 1px solid #000;
+}
+
+/* border-right-solid */
+.bd-r-s {
+    border-right: 1px solid #000;
+}
+
+/* border-bottom-solid */
+.bd-b-s {
+    border-bottom: 1px solid #000;
+}
+
+/* border-left-solid */
+.bd-l-s {
+    border-left: 1px solid #000;
+}
+
+/* border-top-dotted */
+.bd-t-dt {
+    border-top: 1px dotted #000;
+}
+
+/* border-right-dotted */
+.bd-r-dt {
+    border-right: 1px dotted #000;
+}
+
+/* border-bottom-dotted */
+.bd-b-dt {
+    border-bottom: 1px dotted #000;
+}
+
+/* border-left-dotted */
+.bd-l-dt {
+    border-left: 1px dotted #000;
+}
+
+/* border-top-double */
+.bd-t-db {
+    border-top: 4px double #000;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+h1 {
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+img {
+    width: 91px;
+}
+
+.work-history, 
+.own-words {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.work-history thead th, 
+.work-history tbody td, 
+.own-words thead th, 
+.own-words tbody td {
+    border: 1px solid #000;
+}
+
+.work-history thead tr, 
+.own-words thead tr {
+    background-color: #000;
+    color: #fff;
+}
+
+.work-history tbody tr.sub-heading {
+    background-color: #D9D9D9;
+}
+
+.work-history thead tr, 
+.work-history tbody tr {
+    height: 25px;
+}
+
+.work-history thead tr th:first-child, 
+.work-history tbody tr td:first-child {
+    width: 15%;
+}
+
+.work-history thead tr th:nth-child(2), 
+.work-history tbody tr td:nth-child(2) {
+    width: 10%;
+}
