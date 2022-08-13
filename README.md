@@ -21,6 +21,11 @@
 
 HTML5, CSS3, JavaScript
 
+## How To Use・使用手順
+
+- Clone the repository.
+- Open `index.html` file in web browser.
+
 ## Author・作成者
 
 Jeet Z. H. Khondker
