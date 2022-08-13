@@ -1,0 +1,44 @@
+/* Devices are as follows:
+    1. Nexus 5X
+    2. Nexus 6
+    3. Nexus 6P
+    4. Samsung Galaxy S20 Ultra
+    5. Samsung Galaxy A51/71 
+
+    Target Width: 412px
+*/
+@media (min-width:412px) and (max-width:413px) {
+    page[size="A4"][layout="portrait"] {
+        width: 412px;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+
+    .rirekisho, .appeal-points {
+        border-collapse: collapse;
+        table-layout: fixed;
+        width: -webkit-fill-available;
+    }
+
+    td.dob {
+        display: table-cell;
+    }
+}
+
+/* 
+    Device: Nexus 7
+    Target Width: 600px
+*/
+@media (min-width:600px) and (max-width:601px) {
+    page[size="A4"][layout="portrait"] {
+        width: 600px;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+
+    .rirekisho, .appeal-points {
+        border-collapse: collapse;
+        table-layout: fixed;
+        width: -webkit-fill-available;
+    }
+}
