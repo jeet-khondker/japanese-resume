@@ -29,14 +29,3 @@ HTML5, CSS3, JavaScript
 ## Author・作成者
 
 Jeet Z. H. Khondker
-
-## Future Scope/Plan・未来予定
-
-- Source Code Refactoring
-- Integration with Portfolio
-- Database Integration
-- New Features/Plugin Integration
-- Different Page Size Format Compatibility
-- UI/UX Support + Development
-- Multiple Usability
-- Conversion from Web Site to Web Application
